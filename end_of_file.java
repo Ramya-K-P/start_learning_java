@@ -10,7 +10,7 @@ public class end_of_file {
         int lineNumber = 1;
 
         // Read until EOF
-        while (scanner.hasNext()) {
+        while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             System.out.println(lineNumber + " " + line);
             lineNumber++;
